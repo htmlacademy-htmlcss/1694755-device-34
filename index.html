@@ -28,6 +28,7 @@
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <p>Корзина</p>
+            </a>
           </li>
         </ul>
         <ul class="navigation-list">
@@ -56,7 +57,7 @@
       </nav>
     </header>
     <main class="main-index">
-      <section class="gallery">
+      <div class="gallery">
         <p class="visually-hidden">Фотогалерея</p>
         <img class="slider-image" src="" alt="Примеры товаров">
         <button class="slider-button" type="button">
@@ -86,13 +87,13 @@
           </li>
           
         </ol>
-      </section>
-      <section class="description-product">
-        <h2 class="tagline-product">Порхает как бабочка, жалит как пчела!
-        </h2>
+      </div>
+      <div class="description-product">
+        <p class="tagline-product">Порхает как бабочка, жалит как пчела!
+        </p>
         <p class="description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
         </p>
-        <a class="more-description" href="#">Подробнее</a>
+        <a class="morse-description" href="#">Подробнее</a>
         <ul class="tech-description-list">
           <li class="tech-item">
             <b class="tech-description">800 м</b>
@@ -103,9 +104,9 @@
             <span class="description">Радиус поражения</span>
           </li>
         </ul>
-      </section>
-      <section class="product-category">
-        <span calss="visually-hidden">Категории товаров с картинками</span>
+      </div>
+      <div class="product-category">
+        <span class="visually-hidden">Категории товаров с картинками</span>
         <ul class="categories-list">
           <li class="category-item">
             <b class="category-name">Виртуальная реальность</b>
@@ -132,8 +133,8 @@
             <img class="category-logo" src="" alt="Картинка Квадрокоптеры">
           </li>        
         </ul>
-      </section>
-      <section class="product-menu">
+      </div>
+      <div class="product-menu">
         <ul class="more-description-list">
           <li class="more-description-item">
             <button class="more-description" type="button">Доставка</button>
@@ -145,7 +146,7 @@
             <button class="more-description" type="button">Кредит</button>
           </li>
         </ul>
-      </section>
+      </div>
       <section class="info-more-description">
         <h2 class="tagline-product">Доставка</h2>
         <p class="description">Мы с удовольствием доставим ваш товар прямо
@@ -154,11 +155,11 @@
         </p>
         <img class="logo" src="" alt="Картинка курьера">
       </section>
-      <section class="text-info">
+      <div class="text-info">
         <b class="tagline-product">Доставим редкий товар под заказ</b>
         <img class="logo" src="" alt="Картинка грузовика">
         <img class="logo" src="" alt="Картинка инфо">
-      </section>
+      </div>
       <section class="about">
         <h2 class="tagline-product">О нас</h2>
         <p class="description">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
@@ -208,7 +209,7 @@
         </ul>
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="subscription-form">Почта</label>
-          <input type="email" id="appointment-date" name="subscription-mail" placeholder="Ваш e-mail">
+          <input type="email" id="subscription-form" name="subscription-form" placeholder="Ваш e-mail">
           <button class="button subscription-button" type="submit">Подписаться</button>
         </form>
         <span class="description">Это бесплатно</span>
@@ -216,11 +217,12 @@
       </section>
     </main>
     <footer class="page-footer">
-      <section class="footer-left">
+      <div class="footer-left">
         <img class="logo" src="" alt="Логотип магазина Девайс">
         <address class="contact-address-footer">
           <p class="description">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-      </section>
+        </address>
+      </div>
       <section class="footer-centre">
         <ul class="more-description-list">
           <li class="more-description-item">
@@ -240,14 +242,14 @@
           </li>
         </ul>
       </section>
-      <section class="footer-right">
+      <div class="footer-right">
         <address class="contact-address">
           <a class="description" href="tel:+78128121212">+7 (812) 812-12-12</a>
         </address>
-      </section>
+      </div>
       <section class="footer-centre">
         <h2 class="visually-hidden">Социальные сети</h2>
-        <ul calss="footer-social-list">
+        <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="button" href="https://t.me/htmlacademy">
               <span class="visually-hidden">Телеграмм</span>
@@ -265,13 +267,11 @@
           </li>
         </ul>
       </section>
-      <section class="footer-right">
+      <div class="footer-right">
         <a class="htmlacademy-link" href="https://htmlacademy.ru/">
           <p class="about-text">.html academy</p>
         </a>
-      </section>
-
-      
+      </div>
     </footer>
   </body>
 </html>
