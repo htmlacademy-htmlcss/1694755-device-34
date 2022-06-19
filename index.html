@@ -8,8 +8,9 @@
   <body>
     <header class="main-header">
       <h1 class="visually-hidden">Магазин "Девайс"</h1>
-      <img class="logo" src="images/header/logo-black.svg" width="145" height="36"; alt="Логотип магазина Девайс">
+      <img class="logo-device" src="images/header/logo-black.svg" width="145" height="36"; alt="Логотип магазина Девайс">
       <nav class="navigation">
+        <!-- Навигация возле поиска -->
         <div class="navigation-top">
         <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="text-research">Поиск</label>
@@ -17,30 +18,33 @@
           <input type="text" id="text-research" name="text-research" placeholder="Текст поиска">
           <button class="button" type="submit">Найти</button>
         </form>
-        <ul class="navigation-list">
-          <li class="navigation-item">
+        <!-- Блок навигации кроме поиска -->
+        <div class="navigation-top-block">
+        <ul class="navigation-list-top">
+          <li class="navigation-item-top">
             <img class="icons" src="images/header/cabinet.svg" alt="Иконка ЛК" width="13" height="12">
             <a class="navigation-link-up" href="#">
               <p>Войти</p>
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item-top">
             <img class="icons" src="images/header/chart.svg" alt="Иконка сравнить" width="13" height="12">
             <a class="navigation-link-up" href="#">
               <p>Сравнить</p>
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item-top">
             <img class="icons" src="images/header/cart.svg" alt="Иконка корзина" width="13" height="12">
             <a class="navigation-link-up" href="#">
               <p>Корзина</p>
             </a>
           </li>
+        </div>
         </ul>
         </div>
         <div class="navigation-down">
-        <ul class="navigation-list">
-          <li class="navigation-item">
+        <ul class="navigation-list-down">
+          <li class="navigation-item-down">
             <a class="navigation-link-down" href="catalog.html">
               <h2>Каталог товаров</h2>
             </a>
@@ -81,26 +85,29 @@
                 </li>
               </ul>
           </li>
-          <li class="navigation-item">
+          <div class="navigation-down-block">
+          <li class="navigation-item-down">
             <a class="navigation-link-down" href="#">
               <h2>Доставка</h2>
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item-down">
             <a class="navigation-link-down" href="#">
               <h2>Гарантия</h2>
             </a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item-down">
             <a class="navigation-link-down" href="#">
               <h2>Контакты</h2>
             </a>
           </li>
+        </div>
         </ul>
       </div>
       </nav>
     </header>
     <main class="main-index main-container">
+      <div class="main-container-top">
       <div class="gallery">
         <p class="visually-hidden">Фотогалерея</p>
         <img class="slider-image" src="images/main/slider-1.png" width="560" height="560" alt="Примеры товаров">
@@ -131,7 +138,6 @@
             <span class="visually-hidden">3 фото</span>
           </button>
           </li>
-          
         </ol>
       </div>
       <div class="description-product">
@@ -151,32 +157,33 @@
           </li>
         </ul>
       </div>
+    </div>
       <div class="product-category">
         <span class="visually-hidden">Категории товаров с картинками</span>
         <ul class="categories-list">
           <li class="category-item">
-            <b class="category-name">Виртуальная реальность</b>
             <img class="category-logo" src="images/main/categories-1.svg" width="96.95" height="54.99" alt="Картинка VR-очки">
+            <b class="category-name">Виртуальная реальность</b>
           </li>
           <li class="category-item">
-            <b class="category-name">Моноподы для селфи</b>
             <img class="category-logo" src="/images/main/categories-2.svg" width="85.87" height="117" alt="Картинка Моноподы для селфи">
+            <b class="category-name">Моноподы для селфи</b>
           </li>
           <li class="category-item">
-            <b class="category-name">Экшн-камеры</b>
             <img class="category-logo" src="images/main/categories-3.svg" width="71.02" height="87" alt="Картинка Экшн-камеры">
+            <b class="category-name">Экшн-камеры</b>
           </li>
-          <li class="category-iteme">
-            <b class="category-name">Фитнес-браслеты</b>
+          <li class="category-item">
             <img class="category-logo" src="images/main/categories-4.svg" width="107.31" height="64.99" alt="Картинка Фитнес-браслеты">
+            <b class="category-name">Фитнес-браслеты</b>
           </li>
           <li class="category-item">
-            <b class="category-name">Умные часы</b>
             <img class="category-logo" src="images/main/categories-5.svg" width="56.01" height="97.98" alt="Картинка Умные часы">
+            <b class="category-name">Умные часы</b>
           </li>
           <li class="category-item">
-            <b class="category-name">Квадрокоптеры</b>
             <img class="category-logo" src="images/main/categories-6.svg" width="132.03" height="69.01" alt="Картинка Квадрокоптеры">
+            <b class="category-name">Квадрокоптеры</b>
           </li>        
         </ul>
       </div>
