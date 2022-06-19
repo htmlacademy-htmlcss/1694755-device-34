@@ -474,3 +474,88 @@ main {
 .category-item {
     width: 160px;
 }
+
+.tech-description-list {
+    display: flex;
+    justify-content: space-between;
+    width: 307px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-1-page {
+    background-color:#F0F0F0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.more-description-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+
+}
+
+.more-description-item {
+    width: 280px;
+}
+
+.info-more-description {
+    display: flex;
+    flex-direction: column;
+    width: 448px;
+    padding: 0;
+    padding-left: 123px;
+    padding-bottom: 144.5px;
+
+}
+
+.logo-delivery-man {
+    display: block;
+    padding-right: 206.7px;
+}
+
+.about-contacts {
+    display: flex;
+    
+}
+
+.mailing {
+    display: flex;
+    flex-direction: column;
+}
+
+.mailing-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.mailing-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-address-footer {
+    font-family: "rubik";
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+    font-style: normal;
+    color:#EBEBEB;
+    width: 234px;
+}
+
+.contact-address {
+    font-family: "rubik";
+    font-weight: 400;
+    line-height: 20px;
+    font-style: normal;
+    color:#EBEBEB;
+    width: 234px;
+}
+
