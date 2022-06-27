@@ -34,8 +34,27 @@ body {
     color: black;
 }
 
+html {
+    height: 100%;
+}
+
+main {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #444444;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* <header> */
+
 .main-header {
     color: black;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 /* Форма поиска в <header> */
@@ -56,7 +75,6 @@ body {
     text-decoration: none;
     color: inherit;
     display: flex;
-    width: ;
 }
 
 /* Навигация каталог-доставка-гарантия-доставка */
@@ -81,6 +99,108 @@ body {
     text-decoration: none;
     color: inherit;
 }
+
+.navigation-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.head-second-page {
+    font-family: 'raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #F0F0F0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    margin: 0 auto;
+    background-color:#FFE17F;
+}
+
+.navigation-list-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navigation-item-top {
+    width: 83px;
+}
+
+.navigation-list-down {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navigation-item-down {
+    width: auto;
+}
+
+.search-form {
+    width: 517px;
+}
+
+
+.navigation-top {
+    width: 1040px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 45px;
+
+
+}
+
+.navigation-down {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.navigation-top-right {
+    width: 240px;
+    margin-left: auto;
+    display: flex;
+}
+
+.navigation-top-block {
+    width: 496px;
+    margin-left: auto;
+}
+
+.navigation-list {
+    display: flex;
+}
+
+.navigation-down-block {
+    display: flex;
+    margin-left: auto;
+}
+
+.logo-device {
+    display: block;
+    margin-right: auto;
+}
+
+
+
+
+
 
 /* Порхает как бабочка */
 .tagline-product {
@@ -136,17 +256,6 @@ body {
     line-height: 24px;
 }
 
-.head-second-page {
-    font-family: 'raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: #F0F0F0;
-
-}
 
 .name-delivery {
     font-family: 'rubik';
@@ -201,25 +310,10 @@ body {
     color:#444444;
 }
 
-footer {
-    background-color: #444444;
-    width: 1160px;
-    margin: 0 auto;
-}
-
-.navigation-link {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    color:#ffffff;
-    text-decoration: none;
-
-}
-
 .mailing {
     background-color:#F0F0F0;
+    margin: 0 auto;
+    width: 1440px;
 }
 
 .category-logo {
@@ -360,93 +454,12 @@ footer {
     color: white;
 }
 
-html {
-    height: 100%;
-}
-
-main {
-    width: 1160px;
-    margin: 0 auto;
-}
 
 .main-container {
     flex-grow: 1;
 }
 
-.navigation {
-    display: flex;
-    flex-direction: column;
-    width: 1160px;
-    margin: 0 auto;
-    background-color:#FFE17F;
-}
 
-.navigation-list-top {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-
-}
-
-.navigation-item-top {
-    width: 83px;
-}
-
-.navigation-list-down {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-}
-
-.navigation-item-down {
-    width: auto;
-}
-
-.search-form {
-    width: 517px;
-}
-
-
-.navigation-top {
-    width: 1041px;
-    display: flex;
-    margin: 0 auto;
-
-
-}
-
-.navigation-down {
-    width: 1041px;
-    display: flex;
-    margin: 0 auto;
-}
-
-.navigation-top-right {
-    width: 240px;
-    margin-left: auto;
-    display: flex;
-}
-
-.navigation-top-block {
-    width: 496px;
-    margin-left: auto;
-}
-
-.navigation-list {
-    display: flex;
-}
-
-.navigation-down-block {
-    display: flex;
-    margin-left: auto;
-}
-
-.logo-device {
-    display: block;
-    margin-right: auto;
-}
 .main-container-top {
     display: flex;
 
@@ -484,23 +497,10 @@ main {
 }
 
 .footer-1-page {
+    width: 1440px;
     background-color:#F0F0F0;
     display: flex;
-    justify-content: space-between;
-
-
-}
-
-.more-description-list {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-
-}
-
-.more-description-item {
-    width: 280px;
+    justify-content: space-between; 
 }
 
 .info-more-description {
@@ -559,3 +559,50 @@ main {
     width: 234px;
 }
 
+.page-footer-container {
+    display: flex;
+    width: 1160px;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+
+.footer-left {
+    width: 234px;
+    margin-right: 124px;
+}
+
+.footer-centre {
+    width: 444px;
+    margin-right: 183px;
+    
+}
+
+.footer-right {
+    width: 175px;
+}
+
+.more-description-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-social-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
